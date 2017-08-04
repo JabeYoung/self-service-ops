@@ -26,7 +26,7 @@
 				<exclude>assembly.xml</exclude>
 				<exclude>pom.xml</exclude>
 				<exclude>README.md</exclude>
-				<exclude>src</exclude>
+				<exclude>**/src/**</exclude>
 			</excludes>
 		</fileSet>
 	</fileSets>
