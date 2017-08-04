@@ -8,7 +8,7 @@
     <artifactId>self-service</artifactId>
     <version>1.0</version>
     <name>jianbin-self-service-demo</name>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
  
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

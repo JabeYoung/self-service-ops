@@ -9,7 +9,7 @@
 	<includeBaseDirectory>false</includeBaseDirectory>
 	<files>
 		<file>
-			<source>${project.build.directory}/self-service.jar</source>
+			<source>${project.build.directory}/self-service.war</source>
 			<destName>self-service-0.2.jar</destName>
 		</file>
 	</files>
