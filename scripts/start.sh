@@ -1,5 +1,3 @@
-cd /opt/fit2cloud-demo
-echo going to start app
-nohup python -m SimpleHTTPServer 8080 > log.txt 2>&1 &
-echo app started!
-ps aux | grep SimpleHTTPServer | grep -v grep
+#!/bin/bash
+echo going to start self-service
+nohup java -Dfile.encoding=utf-8 -Djava.io.tmpdir=/opt/fit2cloud/tmp -Xms1024m -Xmx1024m -XX:MaxPermSize=160m -jar /opt/fit2cloud/0.2/self-service-0.2.jar > /var/log/self-service.log 2>&1 &
