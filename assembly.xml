@@ -7,6 +7,12 @@
 	    <format>zip</format>
 	</formats>
 	<includeBaseDirectory>false</includeBaseDirectory>
+	<files>
+		<file>
+			<source>${project.build.directory}/self-service.war</source>
+			<destName>self-service-0.2.jar</destName>
+		</file>
+	</files>
 	<fileSets>
 		<fileSet>
 			<directory>${project.basedir}</directory>
@@ -20,6 +26,7 @@
 				<exclude>assembly.xml</exclude>
 				<exclude>pom.xml</exclude>
 				<exclude>README.md</exclude>
+				<exclude>src</exclude>
 			</excludes>
 		</fileSet>
 	</fileSets>
