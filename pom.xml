@@ -8,8 +8,8 @@
     <artifactId>self-service</artifactId>
     <version>1.0</version>
     <name>jianbin-self-service-demo</name>
-<!--     <packaging>war</packaging>
- -->
+    <packaging>war</packaging>
+ 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>4.2.0.RELEASE</spring.version>
